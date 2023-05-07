@@ -1,0 +1,9 @@
+<div class="row"> 
+  <country class="col-lg-3 col-sm-3" *ngFor="let c of MyCountries"
+          [name]="c.name"
+          [flag]="c.flag"
+          [population]="c.population"
+          [capital]="c.capital"
+          [currencies]="c.currencies"></country>
+  </div>
+  
